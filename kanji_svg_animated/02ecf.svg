@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+AniKanjiVG is licensed by CC-BY-SA Paul C. Sommerhoff (https://bitbucket.org/sommerhoff/anikanjivg).
+AniKanjiVG uses KanjiVG which is licensed by CC-BY-SA Ulrich Apel (http://kanjivg.tagaini.net).
+See also http://creativecommons.org/licenses/by-sa/3.0/
+-->
+<svg xmlns:kvg='http://kanjivg.tagaini.net' xmlns='http://www.w3.org/2000/svg' width='109' height='109' viewBox='0 0 109 109' style='fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;' id="kvg:kanji_02ecf"><g id="kvg:02ecf" kvg:element="⻏" kvg:variant="true" kvg:original="邑" kvg:radical="tradit"><path id="kvg:02ecf-s1" kvg:type="㇇" d="M 73.044237,13.54 c 1.56,0.28 3.41,0.8 5.34,0.48 9,-1.51 17.37,-3.14 20.62,-4.18 3.480003,-1.12 5.320003,1.83 3.900003,4.59 -2.03,3.95 -8.110003,15.24 -10.810003,19.08"><animate attributeName="d" begin="0.0s" dur="1.0s" from="M 73.044237,13.54 C 73.044237,13.54 , 73.044237,13.54 , 73.044237,13.54 " to="M 73.044237,13.54 c 1.56,0.28 3.41,0.8 5.34,0.48 9,-1.51 17.37,-3.14 20.62,-4.18 3.480003,-1.12 5.320003,1.83 3.900003,4.59 -2.03,3.95 -8.110003,15.24 -10.810003,19.08" />
+</path>
+<path id="kvg:02ecf-s2" kvg:type="㇌" d="M 92.004237,33.75 c 16.000003,11 14.380003,37 -0.83,27.75"><animate attributeName="d" begin="1.0s" dur="1.0s" from="M 92.004237,33.75 C 92.004237,33.75 , 92.004237,33.75 , 92.004237,33.75 " to="M 92.004237,33.75 c 16.000003,11 14.380003,37 -0.83,27.75" />
+<animate attributeName="d" begin="0s" dur="1.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+<path id="kvg:02ecf-s3" kvg:type="㇑" d="M 74.874237,14.5 c 0.75,0.75 0.96,1.62 0.96,2.75 0,0.85 0.02,51.18 0.03,72.38 0,4.28 0,7.37 0,8.62"><animate attributeName="d" begin="2.0s" dur="1.0s" from="M 74.874237,14.5 C 74.874237,14.5 , 74.874237,14.5 , 74.874237,14.5 " to="M 74.874237,14.5 c 0.75,0.75 0.96,1.62 0.96,2.75 0,0.85 0.02,51.18 0.03,72.38 0,4.28 0,7.37 0,8.62" />
+<animate attributeName="d" begin="0s" dur="2.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+</g>
+</svg>

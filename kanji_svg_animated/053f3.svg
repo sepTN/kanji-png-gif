@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+AniKanjiVG is licensed by CC-BY-SA Paul C. Sommerhoff (https://bitbucket.org/sommerhoff/anikanjivg).
+AniKanjiVG uses KanjiVG which is licensed by CC-BY-SA Ulrich Apel (http://kanjivg.tagaini.net).
+See also http://creativecommons.org/licenses/by-sa/3.0/
+-->
+<svg xmlns:kvg='http://kanjivg.tagaini.net' xmlns='http://www.w3.org/2000/svg' width='109' height='109' viewBox='0 0 109 109' style='fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;' id="kvg:kanji_053f3"><g id="kvg:053f3" kvg:element="右"><path id="kvg:053f3-s1" kvg:type="㇒" d="M53.5,21.5c0.62,1.12,0.69,2.23,0.25,4C49.62,42,39.5,61,25.25,74.25"><animate attributeName="d" begin="0.0s" dur="0.5s" from="M53.5,21.5C53.5,21.5,53.5,21.5,53.5,21.5" to="M53.5,21.5c0.62,1.12,0.69,2.23,0.25,4" />
+<animate attributeName="d" begin="0.5s" dur="0.5s" from="M53.5,21.5c0.62,1.12,0.69,2.23,0.25,4c0,0,0,0,0,0,0" to="M53.5,21.5c0.62,1.12,0.69,2.23,0.25,4C49.62,42,39.5,61,25.25,74.25" />
+</path>
+<path id="kvg:053f3-s2" kvg:type="㇐" d="M13,42.15c1.9,0.56,5.9,0.52,7.79,0.34c23.41-2.24,49.76-5.74,67.67-6.3c3.24-0.1,6.45,0.31,9.17,0.81"><animate attributeName="d" begin="1.0s" dur="0.3333333333333333s" from="M13,42.15C13,42.15,13,42.15,13,42.15" to="M13,42.15c1.9,0.56,5.9,0.52,7.79,0.34" />
+<animate attributeName="d" begin="1.3333333333333333s" dur="0.3333333333333333s" from="M13,42.15c1.9,0.56,5.9,0.52,7.79,0.34c0,0,0,0,0,0,0" to="M13,42.15c1.9,0.56,5.9,0.52,7.79,0.34c23.41-2.24,49.76-5.74,67.67-6.3" />
+<animate attributeName="d" begin="1.6666666666666665s" dur="0.3333333333333333s" from="M13,42.15c1.9,0.56,5.9,0.52,7.79,0.34c23.41-2.24,49.76-5.74,67.67-6.3c0,0,0,0,0,0,0" to="M13,42.15c1.9,0.56,5.9,0.52,7.79,0.34c23.41-2.24,49.76-5.74,67.67-6.3c3.24-0.1,6.45,0.31,9.17,0.81" />
+<animate attributeName="d" begin="0s" dur="1.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+<g id="kvg:053f3-g1" kvg:element="口" kvg:radical="general"><path id="kvg:053f3-s3" kvg:type="㇑" d="M41.75,66.5c0.75,0.75,1.35,1.93,1.54,2.95c0.94,5,2.38,16.66,3.07,22.76c0.24,2.15,0.39,2.8,0.39,3.54"><animate attributeName="d" begin="2.0s" dur="0.3333333333333333s" from="M41.75,66.5C41.75,66.5,41.75,66.5,41.75,66.5" to="M41.75,66.5c0.75,0.75,1.35,1.93,1.54,2.95" />
+<animate attributeName="d" begin="2.3333333333333335s" dur="0.3333333333333333s" from="M41.75,66.5c0.75,0.75,1.35,1.93,1.54,2.95c0,0,0,0,0,0,0" to="M41.75,66.5c0.75,0.75,1.35,1.93,1.54,2.95c0.94,5,2.38,16.66,3.07,22.76" />
+<animate attributeName="d" begin="2.6666666666666665s" dur="0.3333333333333333s" from="M41.75,66.5c0.75,0.75,1.35,1.93,1.54,2.95c0.94,5,2.38,16.66,3.07,22.76c0,0,0,0,0,0,0" to="M41.75,66.5c0.75,0.75,1.35,1.93,1.54,2.95c0.94,5,2.38,16.66,3.07,22.76c0.24,2.15,0.39,2.8,0.39,3.54" />
+<animate attributeName="d" begin="0s" dur="2.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+<path id="kvg:053f3-s4" kvg:type="㇕b" d="M43.25,68c5.25-0.5,29.75-3.25,37-3.75c1.75-0.12,3.24,1.52,3,2.75c-1,5.12-3.38,18-4.5,23.25"><animate attributeName="d" begin="3.0s" dur="0.3333333333333333s" from="M43.25,68C43.25,68,43.25,68,43.25,68" to="M43.25,68c5.25-0.5,29.75-3.25,37-3.75" />
+<animate attributeName="d" begin="3.3333333333333335s" dur="0.3333333333333333s" from="M43.25,68c5.25-0.5,29.75-3.25,37-3.75c0,0,0,0,0,0,0" to="M43.25,68c5.25-0.5,29.75-3.25,37-3.75c1.75-0.12,3.24,1.52,3,2.75" />
+<animate attributeName="d" begin="3.6666666666666665s" dur="0.3333333333333333s" from="M43.25,68c5.25-0.5,29.75-3.25,37-3.75c1.75-0.12,3.24,1.52,3,2.75c0,0,0,0,0,0,0" to="M43.25,68c5.25-0.5,29.75-3.25,37-3.75c1.75-0.12,3.24,1.52,3,2.75c-1,5.12-3.38,18-4.5,23.25" />
+<animate attributeName="d" begin="0s" dur="3.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+<path id="kvg:053f3-s5" kvg:type="㇐b" d="M47,93.25c5.79-0.2,19.51-1.58,28.25-2.23c2.21-0.17,4.18-0.27,5.75-0.27"><animate attributeName="d" begin="4.0s" dur="0.5s" from="M47,93.25C47,93.25,47,93.25,47,93.25" to="M47,93.25c5.79-0.2,19.51-1.58,28.25-2.23" />
+<animate attributeName="d" begin="4.5s" dur="0.5s" from="M47,93.25c5.79-0.2,19.51-1.58,28.25-2.23c0,0,0,0,0,0,0" to="M47,93.25c5.79-0.2,19.51-1.58,28.25-2.23c2.21-0.17,4.18-0.27,5.75-0.27" />
+<animate attributeName="d" begin="0s" dur="4.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+</g>
+</g>
+</svg>

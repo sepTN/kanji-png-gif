@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+AniKanjiVG is licensed by CC-BY-SA Paul C. Sommerhoff (https://bitbucket.org/sommerhoff/anikanjivg).
+AniKanjiVG uses KanjiVG which is licensed by CC-BY-SA Ulrich Apel (http://kanjivg.tagaini.net).
+See also http://creativecommons.org/licenses/by-sa/3.0/
+-->
+<svg xmlns:kvg='http://kanjivg.tagaini.net' xmlns='http://www.w3.org/2000/svg' width='109' height='109' viewBox='0 0 109 109' style='fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;' id="kvg:kanji_030e0"><g id="kvg:030e0"><path id="kvg:030e0-s1" d="M53.84,22.5c0.88,1.75,0.78,4.57-0.38,6.88c-9.25,18.38-16.19,30.96-25.25,45.75c-3.75,6.12-3,8.38,4.38,7.12c7.38-1.26,46.62-8.12,49.62-8.88"><animate attributeName="d" begin="0.0s" dur="0.25s" from="M53.84,22.5C53.84,22.5,53.84,22.5,53.84,22.5" to="M53.84,22.5c0.88,1.75,0.78,4.57-0.38,6.88" />
+<animate attributeName="d" begin="0.25s" dur="0.25s" from="M53.84,22.5c0.88,1.75,0.78,4.57-0.38,6.88c0,0,0,0,0,0,0" to="M53.84,22.5c0.88,1.75,0.78,4.57-0.38,6.88c-9.25,18.38-16.19,30.96-25.25,45.75" />
+<animate attributeName="d" begin="0.5s" dur="0.25s" from="M53.84,22.5c0.88,1.75,0.78,4.57-0.38,6.88c-9.25,18.38-16.19,30.96-25.25,45.75c0,0,0,0,0,0,0" to="M53.84,22.5c0.88,1.75,0.78,4.57-0.38,6.88c-9.25,18.38-16.19,30.96-25.25,45.75c-3.75,6.12-3,8.38,4.38,7.12" />
+<animate attributeName="d" begin="0.75s" dur="0.25s" from="M53.84,22.5c0.88,1.75,0.78,4.57-0.38,6.88c-9.25,18.38-16.19,30.96-25.25,45.75c-3.75,6.12-3,8.38,4.38,7.12c0,0,0,0,0,0,0" to="M53.84,22.5c0.88,1.75,0.78,4.57-0.38,6.88c-9.25,18.38-16.19,30.96-25.25,45.75c-3.75,6.12-3,8.38,4.38,7.12c7.38-1.26,46.62-8.12,49.62-8.88" />
+</path>
+<path id="kvg:030e0-s2" d="M72.21,60.12c6.88,6.38,13.62,14.88,16,25.38"><animate attributeName="d" begin="1.0s" dur="1.0s" from="M72.21,60.12C72.21,60.12,72.21,60.12,72.21,60.12" to="M72.21,60.12c6.88,6.38,13.62,14.88,16,25.38" />
+<animate attributeName="d" begin="0s" dur="1.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+</g>
+</svg>

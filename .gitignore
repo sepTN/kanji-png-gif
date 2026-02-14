@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Custom Output Directories (User generated)
+kanji_custom/
+test_*/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

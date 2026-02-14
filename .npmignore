@@ -1,0 +1,22 @@
+# Source Control
+.git/
+.gitignore
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Heavy Output Directories (Users generate these themselves)
+kanji_png/
+kanji_png_og/
+kanji_gif/
+kanji_custom/
+kanji_svg_animated/
+
+# Examples and Tests
+examples/
+test_*/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*

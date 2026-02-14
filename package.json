@@ -1,15 +1,34 @@
 {
   "name": "kanji-png",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generate high-quality Kanji PNGs and Animated GIFs (Stroke Order) from SVG data.",
   "main": "generate.js",
+  "bin": {
+    "kanji-png": "./generate.js",
+    "kanji-gen": "./generate.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "kanji",
+    "japanese",
+    "gif",
+    "animation",
+    "stroke-order",
+    "png",
+    "svg",
+    "generator",
+    "cli"
+  ],
+  "author": "Septian Ganendra S. K.",
+  "license": "CC-BY-SA-3.0",
   "type": "commonjs",
+  "files": [
+    "generate.js",
+    "kanji_svg/"
+  ],
+  "private": false,
   "dependencies": {
     "cheerio": "^1.2.0",
     "gif-encoder-2": "^1.0.5",

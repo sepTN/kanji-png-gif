@@ -1,0 +1,19 @@
+{
+  "name": "kanji-png",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "gif-encoder-2": "^1.0.5",
+    "sharp": "^0.34.5",
+    "svg-path-properties": "^2.0.0"
+  }
+}

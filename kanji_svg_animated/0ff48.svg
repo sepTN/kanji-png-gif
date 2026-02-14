@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+AniKanjiVG is licensed by CC-BY-SA Paul C. Sommerhoff (https://bitbucket.org/sommerhoff/anikanjivg).
+AniKanjiVG uses KanjiVG which is licensed by CC-BY-SA Ulrich Apel (http://kanjivg.tagaini.net).
+See also http://creativecommons.org/licenses/by-sa/3.0/
+-->
+<svg xmlns:kvg='http://kanjivg.tagaini.net' xmlns='http://www.w3.org/2000/svg' width='109' height='109' viewBox='0 0 109 109' style='fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;' id="kvg:kanji_0ff48"><g id="kvg:0ff48"><path id="kvg:0ff48-s1" d="M34.5,15.43c0,5.35,0,69.79,0,77.16"><animate attributeName="d" begin="0.0s" dur="1.0s" from="M34.5,15.43C34.5,15.43,34.5,15.43,34.5,15.43" to="M34.5,15.43c0,5.35,0,69.79,0,77.16" />
+</path>
+<path id="kvg:0ff48-s2" d="M34.66,52.69c12.71-24.62,39.76-21.38,39.76-4.52c0,19.22,0,37.48,0,44.42"><animate attributeName="d" begin="1.0s" dur="0.5s" from="M34.66,52.69C34.66,52.69,34.66,52.69,34.66,52.69" to="M34.66,52.69c12.71-24.62,39.76-21.38,39.76-4.52" />
+<animate attributeName="d" begin="1.5s" dur="0.5s" from="M34.66,52.69c12.71-24.62,39.76-21.38,39.76-4.52c0,0,0,0,0,0,0" to="M34.66,52.69c12.71-24.62,39.76-21.38,39.76-4.52c0,19.22,0,37.48,0,44.42" />
+<animate attributeName="d" begin="0s" dur="1.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+</g>
+</svg>

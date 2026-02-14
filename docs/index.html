@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanji PNG & GIF Generator</title>
+    <meta name="description" content="Node.js utility to generate animated Kanji stroke order GIFs.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .seigaiha {
+            background-color: #fdfbf7;
+            background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+    </style>
+</head>
+
+<body class="seigaiha text-slate-800 font-sans">
+
+    <div class="max-w-4xl mx-auto px-6 py-20 text-center">
+        <h1 class="text-5xl font-bold mb-4 tracking-tight">Kanji PNG & GIF Generator</h1>
+        <p class="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
+            A lightweight Node.js utility to generate high-quality SVG, PNG, and Animated GIFs for Japanese characters.
+        </p>
+
+        <div class="flex justify-center gap-4">
+            <a href="https://github.com/sepTN/kanji-png-gif"
+                class="bg-slate-900 text-white px-6 py-3 rounded-lg font-bold hover:bg-slate-700 transition">
+                View on GitHub
+            </a>
+            <a href="https://jepang.org/kanji/"
+                class="bg-red-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-red-700 transition flex items-center gap-2">
+                <span>See Live Demo</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                </svg>
+            </a>
+        </div>
+        <p class="text-sm text-slate-500 mt-4">Powers the dictionary at <strong>Jepang.org</strong></p>
+    </div>
+
+    <div class="max-w-5xl mx-auto px-6 pb-20">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 text-center">
+                <h3 class="font-bold text-slate-900 mb-2">Standard Animation</h3>
+                <img src="https://raw.githubusercontent.com/sepTN/kanji-png-gif/main/examples/standard.gif"
+                    class="h-32 mx-auto my-4" alt="Standard GIF">
+                <code class="text-xs bg-slate-100 p-1 rounded">format: gif</code>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 text-center">
+                <h3 class="font-bold text-slate-900 mb-2">Custom Colors</h3>
+                <img src="https://raw.githubusercontent.com/sepTN/kanji-png-gif/main/examples/colored.gif"
+                    class="h-32 mx-auto my-4" alt="Colored GIF">
+                <code class="text-xs bg-slate-100 p-1 rounded">color: #ff0000</code>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 text-center">
+                <h3 class="font-bold text-slate-900 mb-2">Transparent PNG</h3>
+                <img src="https://raw.githubusercontent.com/sepTN/kanji-png-gif/main/examples/transparent.png"
+                    class="h-32 mx-auto my-4" alt="Transparent PNG">
+                <code class="text-xs bg-slate-100 p-1 rounded">bg: transparent</code>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-slate-900 text-slate-300 py-16">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-white mb-8 text-center">Documentation</h2>
+
+            <!-- Installation -->
+            <div class="mb-12">
+                <h3 class="text-xl font-semibold text-white mb-4 flex items-center gap-2">
+                    <span class="text-red-500">#</span> Installation
+                </h3>
+                <div class="bg-black/50 p-6 rounded-lg font-mono text-sm border border-white/10">
+                    <p class="text-slate-400 mb-2">// Install globally to use the CLI anywhere</p>
+                    <p class="text-white">npm install -g kanji-png</p>
+                    <p class="text-slate-400 mt-4 mb-2">// Or run directly with npx</p>
+                    <p class="text-white">npx kanji-png --help</p>
+                </div>
+            </div>
+
+            <!-- Usage Examples -->
+            <div class="mb-12">
+                <h3 class="text-xl font-semibold text-white mb-4 flex items-center gap-2">
+                    <span class="text-red-500">#</span> Usage Examples
+                </h3>
+
+                <div class="grid gap-6">
+                    <div class="bg-slate-800/50 p-6 rounded-lg border border-white/5">
+                        <h4 class="font-bold text-white mb-2">1. Animated GIF with Relative Timing</h4>
+                        <p class="text-sm text-slate-400 mb-3">Complex characters take longer to write than simple ones.
+                        </p>
+                        <code class="block bg-black/50 p-3 rounded text-green-400 font-mono text-sm">
+                            npx kanji-png --file 04e00.svg --format gif --width 300 --timing relative
+                        </code>
+                    </div>
+
+                    <div class="bg-slate-800/50 p-6 rounded-lg border border-white/5">
+                        <h4 class="font-bold text-white mb-2">2. High-Resolution PNG for Print</h4>
+                        <p class="text-sm text-slate-400 mb-3">Generate a large, crisp image (2000x2000).</p>
+                        <code class="block bg-black/50 p-3 rounded text-green-400 font-mono text-sm">
+                            npx kanji-png --file 09b31.svg --format png --width 2000
+                        </code>
+                    </div>
+
+                    <div class="bg-slate-800/50 p-6 rounded-lg border border-white/5">
+                        <h4 class="font-bold text-white mb-2">3. Colored Backgrounds & Custom Strokes</h4>
+                        <p class="text-sm text-slate-400 mb-3">Red strokes with a blue guide on a yellow background.</p>
+                        <code class="block bg-black/50 p-3 rounded text-green-400 font-mono text-sm">
+                            npx kanji-png --file 04e00.svg --format gif --color "#ff0000" --guide "#0000ff" --bg "#ffffcc"
+                        </code>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CLI Options -->
+<div>
+    <h3 class="text-xl font-semibold text-white mb-4 flex items-center gap-2">
+        <span class="text-red-500">#</span> CLI Reference
+    </h3>
+    <pre
+        class="bg-black/80 text-green-400 p-6 rounded-lg font-mono text-sm border border-white/10 overflow-x-auto leading-relaxed">
+Usage: kanji-png [options]
+
+Modes:
+  Default (no args): Generates Square PNG, OG PNG, and Animated GIF.
+  Custom: Generates a specific format with custom settings.
+
+Options:
+  --help, -h       Show this help message.
+  --file &lt;name&gt;    Process a single SVG file (e.g., 04e00.svg).
+
+Customization Options:
+  --format &lt;type&gt;  Output format: 'png' or 'gif'.
+  --width &lt;px&gt;     Output width.
+  --height &lt;px&gt;    Output height. (Defaults to width if omitted).
+  --out &lt;dir&gt;      Output directory (default: 'kanji_custom').
+  --bg &lt;color&gt;     Background color (e.g., 'white', 'transparent' or '#RRGGBB'). 
+                   Default: 'white' (GIF/PNG), 'transparent' (Square PNG).
+  --color &lt;hex&gt;    Main stroke color (default: '#000000').
+  --guide &lt;hex&gt;    Guide stroke color (default: '#dddddd', use 'none' to hide).
+  
+Animation Options (GIF only):
+  --duration &lt;ms&gt;  Total animation duration (default: 2000ms).
+  --fps &lt;num&gt;      Frames per second (default: 20).
+  --timing &lt;mode&gt;  'fixed' (default) or 'relative'.
+                   fixed: All kanji take 'duration' ms.
+                   relative: Duration depends on stroke count.
+
+Examples:
+  kanji-png --file 04e00.svg --format gif --width 300 --timing relative
+  kanji-png --format png --width 500 --bg transparent --guide none
+</pre>
+</div>
+        </div>
+    </div>
+
+    <div class="text-center py-8 text-slate-400 text-sm">
+        <p>Created by <a href="https://github.com/sepTN" class="hover:text-slate-600">sepTN</a>. Licensed under CC BY-SA
+            3.0.</p>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+AniKanjiVG is licensed by CC-BY-SA Paul C. Sommerhoff (https://bitbucket.org/sommerhoff/anikanjivg).
+AniKanjiVG uses KanjiVG which is licensed by CC-BY-SA Ulrich Apel (http://kanjivg.tagaini.net).
+See also http://creativecommons.org/licenses/by-sa/3.0/
+-->
+<svg xmlns:kvg='http://kanjivg.tagaini.net' xmlns='http://www.w3.org/2000/svg' width='109' height='109' viewBox='0 0 109 109' style='fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;' id="kvg:kanji_0624d"><g id="kvg:0624d" kvg:element="才"><g id="kvg:0624d-g1" kvg:element="扌" kvg:variant="true" kvg:original="手" kvg:radical="tradit"><path id="kvg:0624d-s1" kvg:type="㇐" d="M 18.62,38.5 c 2.62,0.62 4.54,0.53 7.82,0.25 C 41.25,37.5 67.62,35 84.75,34 c 3.28,-0.19 5.86,0 8,0.5"><animate attributeName="d" begin="0.0s" dur="0.3333333333333333s" from="M 18.62,38.5 C 18.62,38.5 , 18.62,38.5 , 18.62,38.5 " to="M 18.62,38.5 c 2.62,0.62 4.54,0.53 7.82,0.25 " />
+<animate attributeName="d" begin="0.3333333333333333s" dur="0.3333333333333333s" from="M 18.62,38.5 c 2.62,0.62 4.54,0.53 7.82,0.25 c0,0,0,0,0,0,0" to="M 18.62,38.5 c 2.62,0.62 4.54,0.53 7.82,0.25 C 41.25,37.5 67.62,35 84.75,34 " />
+<animate attributeName="d" begin="0.6666666666666666s" dur="0.3333333333333333s" from="M 18.62,38.5 c 2.62,0.62 4.54,0.53 7.82,0.25 C 41.25,37.5 67.62,35 84.75,34 c0,0,0,0,0,0,0" to="M 18.62,38.5 c 2.62,0.62 4.54,0.53 7.82,0.25 C 41.25,37.5 67.62,35 84.75,34 c 3.28,-0.19 5.86,0 8,0.5" />
+</path>
+<g id="kvg:0624d-g2" kvg:element="亅" kvg:radical="nelson"><path id="kvg:0624d-s2" kvg:type="㇚" d="M 60.77,13.58 c 1.39,1.39 2.26,2.99 2.26,6.02 0,15.4 -0.01,66.41 -0.01,71.37 0,8.78 -7.21,0.5 -8.71,-0.75"><animate attributeName="d" begin="1.0s" dur="1.0s" from="M 60.77,13.58 C 60.77,13.58 , 60.77,13.58 , 60.77,13.58 " to="M 60.77,13.58 c 1.39,1.39 2.26,2.99 2.26,6.02 0,15.4 -0.01,66.41 -0.01,71.37 0,8.78 -7.21,0.5 -8.71,-0.75" />
+<animate attributeName="d" begin="0s" dur="1.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+</g>
+<path id="kvg:0624d-s3" kvg:type="㇒" d="M 73.043742,46.367587 C 62.856133,57.87424 32.711367,80.494361 23.641472,85.467096"><animate attributeName="d" begin="2.0s" dur="1.0s" from="M 73.043742,46.367587 C 73.043742,46.367587 , 73.043742,46.367587 , 73.043742,46.367587 " to="M 73.043742,46.367587 C 62.856133,57.87424 32.711367,80.494361 23.641472,85.467096" />
+<animate attributeName="d" begin="0s" dur="2.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+</g>
+</g>
+</svg>

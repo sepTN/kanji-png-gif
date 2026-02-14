@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+AniKanjiVG is licensed by CC-BY-SA Paul C. Sommerhoff (https://bitbucket.org/sommerhoff/anikanjivg).
+AniKanjiVG uses KanjiVG which is licensed by CC-BY-SA Ulrich Apel (http://kanjivg.tagaini.net).
+See also http://creativecommons.org/licenses/by-sa/3.0/
+-->
+<svg xmlns:kvg='http://kanjivg.tagaini.net' xmlns='http://www.w3.org/2000/svg' width='109' height='109' viewBox='0 0 109 109' style='fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;' id="kvg:kanji_06b66"><g id="kvg:06b66" kvg:element="武"><g id="kvg:06b66-g1" kvg:element="一" kvg:radical="nelson"><path id="kvg:06b66-s1" kvg:type="㇐" d="M23.5,30.14c1.56,0.63,3.4,0.43,5.01,0.22c4.65-0.6,11.13-1.95,15.38-2.46c0.99-0.12,1.9-0.17,2.87-0.16"><animate attributeName="d" begin="0.0s" dur="0.3333333333333333s" from="M23.5,30.14C23.5,30.14,23.5,30.14,23.5,30.14" to="M23.5,30.14c1.56,0.63,3.4,0.43,5.01,0.22" />
+<animate attributeName="d" begin="0.3333333333333333s" dur="0.3333333333333333s" from="M23.5,30.14c1.56,0.63,3.4,0.43,5.01,0.22c0,0,0,0,0,0,0" to="M23.5,30.14c1.56,0.63,3.4,0.43,5.01,0.22c4.65-0.6,11.13-1.95,15.38-2.46" />
+<animate attributeName="d" begin="0.6666666666666666s" dur="0.3333333333333333s" from="M23.5,30.14c1.56,0.63,3.4,0.43,5.01,0.22c4.65-0.6,11.13-1.95,15.38-2.46c0,0,0,0,0,0,0" to="M23.5,30.14c1.56,0.63,3.4,0.43,5.01,0.22c4.65-0.6,11.13-1.95,15.38-2.46c0.99-0.12,1.9-0.17,2.87-0.16" />
+</path>
+</g>
+<g id="kvg:06b66-g2" kvg:element="弋" kvg:part="1"><path id="kvg:06b66-s2" kvg:type="㇐" d="M14.75,45.7c3.18,1.13,7.02,0.58,10.27,0.06c11.85-1.89,41.57-6.6,57.61-8.15c3.24-0.31,6.18-0.5,9.36,0.18"><animate attributeName="d" begin="1.0s" dur="0.3333333333333333s" from="M14.75,45.7C14.75,45.7,14.75,45.7,14.75,45.7" to="M14.75,45.7c3.18,1.13,7.02,0.58,10.27,0.06" />
+<animate attributeName="d" begin="1.3333333333333333s" dur="0.3333333333333333s" from="M14.75,45.7c3.18,1.13,7.02,0.58,10.27,0.06c0,0,0,0,0,0,0" to="M14.75,45.7c3.18,1.13,7.02,0.58,10.27,0.06c11.85-1.89,41.57-6.6,57.61-8.15" />
+<animate attributeName="d" begin="1.6666666666666665s" dur="0.3333333333333333s" from="M14.75,45.7c3.18,1.13,7.02,0.58,10.27,0.06c11.85-1.89,41.57-6.6,57.61-8.15c0,0,0,0,0,0,0" to="M14.75,45.7c3.18,1.13,7.02,0.58,10.27,0.06c11.85-1.89,41.57-6.6,57.61-8.15c3.24-0.31,6.18-0.5,9.36,0.18" />
+<animate attributeName="d" begin="0s" dur="1.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+</g>
+<g id="kvg:06b66-g3" kvg:element="止" kvg:radical="tradit"><g id="kvg:06b66-g4" kvg:element="卜" kvg:original="ト"><path id="kvg:06b66-s3" kvg:type="㇑a" d="M40.25,50.43c0.66,0.66,1.02,2.07,1.02,3.02c0,1.02,0.08,24.06,0.08,29.67"><animate attributeName="d" begin="2.0s" dur="0.5s" from="M40.25,50.43C40.25,50.43,40.25,50.43,40.25,50.43" to="M40.25,50.43c0.66,0.66,1.02,2.07,1.02,3.02" />
+<animate attributeName="d" begin="2.5s" dur="0.5s" from="M40.25,50.43c0.66,0.66,1.02,2.07,1.02,3.02c0,0,0,0,0,0,0" to="M40.25,50.43c0.66,0.66,1.02,2.07,1.02,3.02c0,1.02,0.08,24.06,0.08,29.67" />
+<animate attributeName="d" begin="0s" dur="2.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+<path id="kvg:06b66-s4" kvg:type="㇐b" d="M42.44,63.88c3.93-0.5,8.06-1.38,12.5-2.07c1.33-0.21,1.68-0.19,2.53,0"><animate attributeName="d" begin="3.0s" dur="0.5s" from="M42.44,63.88C42.44,63.88,42.44,63.88,42.44,63.88" to="M42.44,63.88c3.93-0.5,8.06-1.38,12.5-2.07" />
+<animate attributeName="d" begin="3.5s" dur="0.5s" from="M42.44,63.88c3.93-0.5,8.06-1.38,12.5-2.07c0,0,0,0,0,0,0" to="M42.44,63.88c3.93-0.5,8.06-1.38,12.5-2.07c1.33-0.21,1.68-0.19,2.53,0" />
+<animate attributeName="d" begin="0s" dur="3.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+</g>
+<path id="kvg:06b66-s5" kvg:type="㇑a" d="M25.96,63.63c0.83,0.83,1.02,1.99,1.02,3.02c0,0.79,0.08,16.23,0.08,21.69"><animate attributeName="d" begin="4.0s" dur="0.5s" from="M25.96,63.63C25.96,63.63,25.96,63.63,25.96,63.63" to="M25.96,63.63c0.83,0.83,1.02,1.99,1.02,3.02" />
+<animate attributeName="d" begin="4.5s" dur="0.5s" from="M25.96,63.63c0.83,0.83,1.02,1.99,1.02,3.02c0,0,0,0,0,0,0" to="M25.96,63.63c0.83,0.83,1.02,1.99,1.02,3.02c0,0.79,0.08,16.23,0.08,21.69" />
+<animate attributeName="d" begin="0s" dur="4.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+<path id="kvg:06b66-s6" kvg:type="㇀/㇐" d="M18.25,90.6c0.7,0.7,1.9,0.97,3.67,0.34C35.88,86,45,82.62,59.5,77"><animate attributeName="d" begin="5.0s" dur="0.5s" from="M18.25,90.6C18.25,90.6,18.25,90.6,18.25,90.6" to="M18.25,90.6c0.7,0.7,1.9,0.97,3.67,0.34" />
+<animate attributeName="d" begin="5.5s" dur="0.5s" from="M18.25,90.6c0.7,0.7,1.9,0.97,3.67,0.34c0,0,0,0,0,0,0" to="M18.25,90.6c0.7,0.7,1.9,0.97,3.67,0.34C35.88,86,45,82.62,59.5,77" />
+<animate attributeName="d" begin="0s" dur="5.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+</g>
+<g id="kvg:06b66-g5" kvg:element="弋" kvg:part="2"><path id="kvg:06b66-s7" kvg:type="㇂" d="M56.25,13.75c1.73,1.73,2.14,3.47,2.56,7.2c3.07,27.43,9.82,54.43,31.07,72.32c5.95,5.01,5.33,1.24,4.47-6.44"><animate attributeName="d" begin="6.0s" dur="0.3333333333333333s" from="M56.25,13.75C56.25,13.75,56.25,13.75,56.25,13.75" to="M56.25,13.75c1.73,1.73,2.14,3.47,2.56,7.2" />
+<animate attributeName="d" begin="6.333333333333333s" dur="0.3333333333333333s" from="M56.25,13.75c1.73,1.73,2.14,3.47,2.56,7.2c0,0,0,0,0,0,0" to="M56.25,13.75c1.73,1.73,2.14,3.47,2.56,7.2c3.07,27.43,9.82,54.43,31.07,72.32" />
+<animate attributeName="d" begin="6.666666666666667s" dur="0.3333333333333333s" from="M56.25,13.75c1.73,1.73,2.14,3.47,2.56,7.2c3.07,27.43,9.82,54.43,31.07,72.32c0,0,0,0,0,0,0" to="M56.25,13.75c1.73,1.73,2.14,3.47,2.56,7.2c3.07,27.43,9.82,54.43,31.07,72.32c5.95,5.01,5.33,1.24,4.47-6.44" />
+<animate attributeName="d" begin="0s" dur="6.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+<g id="kvg:06b66-g6" kvg:element="丶"><path id="kvg:06b66-s8" kvg:type="㇔" d="M71.75,18c3.59,1.85,9.33,6.08,11,9.25"><animate attributeName="d" begin="7.0s" dur="1.0s" from="M71.75,18C71.75,18,71.75,18,71.75,18" to="M71.75,18c3.59,1.85,9.33,6.08,11,9.25" />
+<animate attributeName="d" begin="0s" dur="7.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+</g>
+</g>
+</g>
+</svg>

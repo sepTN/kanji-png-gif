@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+AniKanjiVG is licensed by CC-BY-SA Paul C. Sommerhoff (https://bitbucket.org/sommerhoff/anikanjivg).
+AniKanjiVG uses KanjiVG which is licensed by CC-BY-SA Ulrich Apel (http://kanjivg.tagaini.net).
+See also http://creativecommons.org/licenses/by-sa/3.0/
+-->
+<svg xmlns:kvg='http://kanjivg.tagaini.net' xmlns='http://www.w3.org/2000/svg' width='109' height='109' viewBox='0 0 109 109' style='fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;' id="kvg:kanji_0698a"><g id="kvg:0698a" kvg:element="榊"><g id="kvg:0698a-g1" kvg:element="木" kvg:position="left" kvg:radical="general"><path id="kvg:0698a-s1" kvg:type="㇐" d="M12.28,38.72c0.35,0.24,2.39,0.41,3.31,0.31c3.94-0.41,17.12-1.71,23.45-2.91c0.92-0.17,1.15-0.24,1.73,0"><animate attributeName="d" begin="0.0s" dur="0.3333333333333333s" from="M12.28,38.72C12.28,38.72,12.28,38.72,12.28,38.72" to="M12.28,38.72c0.35,0.24,2.39,0.41,3.31,0.31" />
+<animate attributeName="d" begin="0.3333333333333333s" dur="0.3333333333333333s" from="M12.28,38.72c0.35,0.24,2.39,0.41,3.31,0.31c0,0,0,0,0,0,0" to="M12.28,38.72c0.35,0.24,2.39,0.41,3.31,0.31c3.94-0.41,17.12-1.71,23.45-2.91" />
+<animate attributeName="d" begin="0.6666666666666666s" dur="0.3333333333333333s" from="M12.28,38.72c0.35,0.24,2.39,0.41,3.31,0.31c3.94-0.41,17.12-1.71,23.45-2.91c0,0,0,0,0,0,0" to="M12.28,38.72c0.35,0.24,2.39,0.41,3.31,0.31c3.94-0.41,17.12-1.71,23.45-2.91c0.92-0.17,1.15-0.24,1.73,0" />
+</path>
+<path id="kvg:0698a-s2" kvg:type="㇑" d="M27.36,15c0.91,0.47,2.04,2.5,2.04,4.92c0,0.95-0.12,70.25-0.3,76.08"><animate attributeName="d" begin="1.0s" dur="0.5s" from="M27.36,15C27.36,15,27.36,15,27.36,15" to="M27.36,15c0.91,0.47,2.04,2.5,2.04,4.92" />
+<animate attributeName="d" begin="1.5s" dur="0.5s" from="M27.36,15c0.91,0.47,2.04,2.5,2.04,4.92c0,0,0,0,0,0,0" to="M27.36,15c0.91,0.47,2.04,2.5,2.04,4.92c0,0.95-0.12,70.25-0.3,76.08" />
+<animate attributeName="d" begin="0s" dur="1.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+<path id="kvg:0698a-s3" kvg:type="㇒" d="M28.94,39.28c-5.5,16.78-8.56,23.87-17.08,38.56"><animate attributeName="d" begin="2.0s" dur="1.0s" from="M28.94,39.28C28.94,39.28,28.94,39.28,28.94,39.28" to="M28.94,39.28c-5.5,16.78-8.56,23.87-17.08,38.56" />
+<animate attributeName="d" begin="0s" dur="2.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+<path id="kvg:0698a-s4" kvg:type="㇔/㇏" d="M32.47,48.9c3.03,1.6,6.03,5.35,7.66,8.89"><animate attributeName="d" begin="3.0s" dur="1.0s" from="M32.47,48.9C32.47,48.9,32.47,48.9,32.47,48.9" to="M32.47,48.9c3.03,1.6,6.03,5.35,7.66,8.89" />
+<animate attributeName="d" begin="0s" dur="3.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+</g>
+<g id="kvg:0698a-g2" kvg:element="神" kvg:position="right"><g id="kvg:0698a-g3" kvg:element="示" kvg:position="left"><g id="kvg:0698a-g4" kvg:position="top"><path id="kvg:0698a-s5" kvg:type="㇐" d="M43.68,25.42c0.69,0.32,1.96,0.36,2.66,0.32c4.34-0.22,11.32-1.16,15.72-1.46c1.15-0.08,1.85,0.15,2.43,0.32"><animate attributeName="d" begin="4.0s" dur="0.3333333333333333s" from="M43.68,25.42C43.68,25.42,43.68,25.42,43.68,25.42" to="M43.68,25.42c0.69,0.32,1.96,0.36,2.66,0.32" />
+<animate attributeName="d" begin="4.333333333333333s" dur="0.3333333333333333s" from="M43.68,25.42c0.69,0.32,1.96,0.36,2.66,0.32c0,0,0,0,0,0,0" to="M43.68,25.42c0.69,0.32,1.96,0.36,2.66,0.32c4.34-0.22,11.32-1.16,15.72-1.46" />
+<animate attributeName="d" begin="4.666666666666667s" dur="0.3333333333333333s" from="M43.68,25.42c0.69,0.32,1.96,0.36,2.66,0.32c4.34-0.22,11.32-1.16,15.72-1.46c0,0,0,0,0,0,0" to="M43.68,25.42c0.69,0.32,1.96,0.36,2.66,0.32c4.34-0.22,11.32-1.16,15.72-1.46c1.15-0.08,1.85,0.15,2.43,0.32" />
+<animate attributeName="d" begin="0s" dur="4.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+<path id="kvg:0698a-s6" kvg:type="㇐" d="M38.86,41.58c1.06,0.17,2.97,0.09,4.01,0c6.56-0.52,10.03-1.79,17.59-2.46c1.73-0.15,2.79-0.05,3.66,0.02"><animate attributeName="d" begin="5.0s" dur="0.3333333333333333s" from="M38.86,41.58C38.86,41.58,38.86,41.58,38.86,41.58" to="M38.86,41.58c1.06,0.17,2.97,0.09,4.01,0" />
+<animate attributeName="d" begin="5.333333333333333s" dur="0.3333333333333333s" from="M38.86,41.58c1.06,0.17,2.97,0.09,4.01,0c0,0,0,0,0,0,0" to="M38.86,41.58c1.06,0.17,2.97,0.09,4.01,0c6.56-0.52,10.03-1.79,17.59-2.46" />
+<animate attributeName="d" begin="5.666666666666667s" dur="0.3333333333333333s" from="M38.86,41.58c1.06,0.17,2.97,0.09,4.01,0c6.56-0.52,10.03-1.79,17.59-2.46c0,0,0,0,0,0,0" to="M38.86,41.58c1.06,0.17,2.97,0.09,4.01,0c6.56-0.52,10.03-1.79,17.59-2.46c1.73-0.15,2.79-0.05,3.66,0.02" />
+<animate attributeName="d" begin="0s" dur="5.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+</g>
+<g id="kvg:0698a-g5" kvg:position="bottom"><path id="kvg:0698a-s7" kvg:type="㇑" d="M54.61,42.28c0.47,0.39,0.75,1.76,0.85,2.54c0.09,0.78,0,45.78-0.09,50.67"><animate attributeName="d" begin="6.0s" dur="0.5s" from="M54.61,42.28C54.61,42.28,54.61,42.28,54.61,42.28" to="M54.61,42.28c0.47,0.39,0.75,1.76,0.85,2.54" />
+<animate attributeName="d" begin="6.5s" dur="0.5s" from="M54.61,42.28c0.47,0.39,0.75,1.76,0.85,2.54c0,0,0,0,0,0,0" to="M54.61,42.28c0.47,0.39,0.75,1.76,0.85,2.54c0.09,0.78,0,45.78-0.09,50.67" />
+<animate attributeName="d" begin="0s" dur="6.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+<path id="kvg:0698a-s8" kvg:type="㇒" d="M45.76,52.39c0.44,1.39,0.43,2.1,0.43,3.27c0,8.58-0.86,20.33-7.42,31.32"><animate attributeName="d" begin="7.0s" dur="0.5s" from="M45.76,52.39C45.76,52.39,45.76,52.39,45.76,52.39" to="M45.76,52.39c0.44,1.39,0.43,2.1,0.43,3.27" />
+<animate attributeName="d" begin="7.5s" dur="0.5s" from="M45.76,52.39c0.44,1.39,0.43,2.1,0.43,3.27c0,0,0,0,0,0,0" to="M45.76,52.39c0.44,1.39,0.43,2.1,0.43,3.27c0,8.58-0.86,20.33-7.42,31.32" />
+<animate attributeName="d" begin="0s" dur="7.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+<path id="kvg:0698a-s9" kvg:type="㇑/㇔" d="M63.45,49.71c0.92,0.41,1.48,1.83,1.66,2.65c0.18,0.82,0,25.38-0.18,30.48"><animate attributeName="d" begin="8.0s" dur="0.5s" from="M63.45,49.71C63.45,49.71,63.45,49.71,63.45,49.71" to="M63.45,49.71c0.92,0.41,1.48,1.83,1.66,2.65" />
+<animate attributeName="d" begin="8.5s" dur="0.5s" from="M63.45,49.71c0.92,0.41,1.48,1.83,1.66,2.65c0,0,0,0,0,0,0" to="M63.45,49.71c0.92,0.41,1.48,1.83,1.66,2.65c0.18,0.82,0,25.38-0.18,30.48" />
+<animate attributeName="d" begin="0s" dur="8.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+</g>
+</g>
+<g id="kvg:0698a-g6" kvg:element="申" kvg:position="right"><g id="kvg:0698a-g7" kvg:element="田" kvg:partial="true"><path id="kvg:0698a-s10" kvg:type="㇑" d="M69.15,36.52c0.6,0.98,1.2,1.9,1.31,2.56c0.87,5.46,1.38,17.79,1.89,27.84"><animate attributeName="d" begin="9.0s" dur="0.5s" from="M69.15,36.52C69.15,36.52,69.15,36.52,69.15,36.52" to="M69.15,36.52c0.6,0.98,1.2,1.9,1.31,2.56" />
+<animate attributeName="d" begin="9.5s" dur="0.5s" from="M69.15,36.52c0.6,0.98,1.2,1.9,1.31,2.56c0,0,0,0,0,0,0" to="M69.15,36.52c0.6,0.98,1.2,1.9,1.31,2.56c0.87,5.46,1.38,17.79,1.89,27.84" />
+<animate attributeName="d" begin="0s" dur="9.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+<path id="kvg:0698a-s11" kvg:type="㇕a" d="M70.58,38.28c7.92-1.28,19.91-2.91,25.08-3.44c1.9-0.2,2.87,1.38,2.76,2.84c-0.38,5.36-0.92,16.82-2.32,27.77"><animate attributeName="d" begin="10.0s" dur="0.3333333333333333s" from="M70.58,38.28C70.58,38.28,70.58,38.28,70.58,38.28" to="M70.58,38.28c7.92-1.28,19.91-2.91,25.08-3.44" />
+<animate attributeName="d" begin="10.333333333333334s" dur="0.3333333333333333s" from="M70.58,38.28c7.92-1.28,19.91-2.91,25.08-3.44c0,0,0,0,0,0,0" to="M70.58,38.28c7.92-1.28,19.91-2.91,25.08-3.44c1.9-0.2,2.87,1.38,2.76,2.84" />
+<animate attributeName="d" begin="10.666666666666666s" dur="0.3333333333333333s" from="M70.58,38.28c7.92-1.28,19.91-2.91,25.08-3.44c1.9-0.2,2.87,1.38,2.76,2.84c0,0,0,0,0,0,0" to="M70.58,38.28c7.92-1.28,19.91-2.91,25.08-3.44c1.9-0.2,2.87,1.38,2.76,2.84c-0.38,5.36-0.92,16.82-2.32,27.77" />
+<animate attributeName="d" begin="0s" dur="10.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+<path id="kvg:0698a-s12" kvg:type="㇐a" d="M72.03,51c2.26-0.26,22.77-3.07,24.63-3.07"><animate attributeName="d" begin="11.0s" dur="1.0s" from="M72.03,51C72.03,51,72.03,51,72.03,51" to="M72.03,51c2.26-0.26,22.77-3.07,24.63-3.07" />
+<animate attributeName="d" begin="0s" dur="11.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+<path id="kvg:0698a-s13" kvg:type="㇐a" d="M72.71,64.95c6.41-0.7,15.46-1.52,23.03-2.03"><animate attributeName="d" begin="12.0s" dur="1.0s" from="M72.71,64.95C72.71,64.95,72.71,64.95,72.71,64.95" to="M72.71,64.95c6.41-0.7,15.46-1.52,23.03-2.03" />
+<animate attributeName="d" begin="0s" dur="12.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+</g>
+<g id="kvg:0698a-g8" kvg:element="丨"><path id="kvg:0698a-s14" kvg:type="㇑" d="M83.08,14c0.76,0.48,1.22,2.18,1.38,3.15c0.15,0.97-0.15,65.8-0.15,79.85"><animate attributeName="d" begin="13.0s" dur="0.5s" from="M83.08,14C83.08,14,83.08,14,83.08,14" to="M83.08,14c0.76,0.48,1.22,2.18,1.38,3.15" />
+<animate attributeName="d" begin="13.5s" dur="0.5s" from="M83.08,14c0.76,0.48,1.22,2.18,1.38,3.15c0,0,0,0,0,0,0" to="M83.08,14c0.76,0.48,1.22,2.18,1.38,3.15c0.15,0.97-0.15,65.8-0.15,79.85" />
+<animate attributeName="d" begin="0s" dur="13.0s" from="M-100,-100" to="M-100,-100" />
+</path>
+</g>
+</g>
+</g>
+</g>
+</svg>

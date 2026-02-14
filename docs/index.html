@@ -4,8 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kanji PNG & GIF Generator</title>
-    <meta name="description" content="Node.js utility to generate animated Kanji stroke order GIFs.">
+    <title>Kanji PNG & GIF Generator | Documentation</title>
+    <meta name="description"
+        content="Official documentation for kanji-png: A Node.js utility to generate animated Kanji stroke order GIFs and PNGs. Authored by sepTN.">
+    <link rel="canonical" href="https://septn.github.io/kanji-png-gif/">
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://septn.github.io/kanji-png-gif/">
+    <meta property="og:title" content="Kanji PNG & GIF Generator">
+    <meta property="og:description"
+        content="Generate high-quality animated Kanji stroke order GIFs and PNGs programmatically.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/sepTN/kanji-png-gif/main/examples/colored.gif">
+    <meta name="twitter:card" content="summary_large_image">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .seigaiha {
@@ -14,23 +26,60 @@
             background-size: 20px 20px;
         }
     </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareSourceCode",
+      "name": "kanji-png",
+      "alternateName": "Kanji PNG & GIF Generator",
+      "runtimePlatform": "Node.js",
+      "codeRepository": "https://github.com/sepTN/kanji-png-gif",
+      "programmingLanguage": {
+        "@type": "ComputerLanguage",
+        "name": "JavaScript"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Septian Ganendra S. K.",
+        "alternateName": "sepTN",
+        "url": "https://jepang.org/tentang-kami/",
+        "sameAs": [
+            "https://github.com/sepTN",
+            "https://www.npmjs.com/~septn"
+        ]
+      },
+      "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "description": "A lightweight Node.js utility to generate high-quality SVG, PNG, and Animated GIFs for Japanese characters.",
+      "isBasedOn": "https://kanjivg.tagaini.net/",
+      "keywords": "kanji, stroke order, gif generator, nodejs, japanese language"
+    }
+    </script>
 </head>
 
 <body class="seigaiha text-slate-800 font-sans">
 
     <div class="max-w-4xl mx-auto px-6 py-20 text-center">
+        <span
+            class="inline-block py-1 px-3 rounded-full bg-slate-200 text-slate-600 text-xs font-bold mb-4 tracking-wide uppercase">Open
+            Source Utility</span>
         <h1 class="text-5xl font-bold mb-4 tracking-tight">Kanji PNG & GIF Generator</h1>
-        <p class="text-xl text-slate-600 mb-8 max-w-2xl mx-auto">
+        <p class="text-xl text-slate-600 mb-8 max-w-2xl mx-auto leading-relaxed">
             A lightweight Node.js utility to generate high-quality SVG, PNG, and Animated GIFs for Japanese characters.
         </p>
 
-        <div class="flex justify-center gap-4">
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
             <a href="https://github.com/sepTN/kanji-png-gif"
-                class="bg-slate-900 text-white px-6 py-3 rounded-lg font-bold hover:bg-slate-700 transition">
+                class="bg-slate-900 text-white px-6 py-3 rounded-lg font-bold hover:bg-slate-700 transition flex items-center justify-center gap-2 shadow-lg">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                        d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                        clip-rule="evenodd"></path>
+                </svg>
                 View on GitHub
             </a>
             <a href="https://jepang.org/kanji/"
-                class="bg-red-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-red-700 transition flex items-center gap-2">
+                class="bg-red-600 text-white px-6 py-3 rounded-lg font-bold hover:bg-red-700 transition flex items-center justify-center gap-2 shadow-lg ring-2 ring-red-100">
                 <span>See Live Demo</span>
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -38,30 +87,45 @@
                 </svg>
             </a>
         </div>
-        <p class="text-sm text-slate-500 mt-4">Powers the dictionary at <strong>Jepang.org</strong></p>
+        <p class="text-sm text-slate-500 mt-6">
+            Production-grade utility powering the dictionary at
+            <a href="https://jepang.org"
+                class="font-bold text-slate-700 hover:text-red-600 hover:underline">Jepang.org</a>
+        </p>
     </div>
 
     <div class="max-w-5xl mx-auto px-6 pb-20">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 text-center">
+            <div
+                class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 text-center hover:shadow-md transition">
                 <h3 class="font-bold text-slate-900 mb-2">Standard Animation</h3>
-                <img src="https://raw.githubusercontent.com/sepTN/kanji-png-gif/main/examples/standard.gif"
-                    class="h-32 mx-auto my-4" alt="Standard GIF">
-                <code class="text-xs bg-slate-100 p-1 rounded">format: gif</code>
+                <div class="bg-slate-50 rounded-lg p-2 mb-4">
+                    <img src="https://raw.githubusercontent.com/sepTN/kanji-png-gif/main/examples/standard.gif"
+                        class="h-32 mx-auto" alt="Standard Kanji Animation GIF">
+                </div>
+                <code class="text-xs bg-slate-100 text-slate-600 p-1 rounded border border-slate-200">format: gif</code>
             </div>
 
-            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 text-center">
+            <div
+                class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 text-center hover:shadow-md transition">
                 <h3 class="font-bold text-slate-900 mb-2">Custom Colors</h3>
-                <img src="https://raw.githubusercontent.com/sepTN/kanji-png-gif/main/examples/colored.gif"
-                    class="h-32 mx-auto my-4" alt="Colored GIF">
-                <code class="text-xs bg-slate-100 p-1 rounded">color: #ff0000</code>
+                <div class="bg-slate-50 rounded-lg p-2 mb-4">
+                    <img src="https://raw.githubusercontent.com/sepTN/kanji-png-gif/main/examples/colored.gif"
+                        class="h-32 mx-auto" alt="Colored Kanji Animation GIF">
+                </div>
+                <code
+                    class="text-xs bg-slate-100 text-slate-600 p-1 rounded border border-slate-200">color: #ff0000</code>
             </div>
 
-            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 text-center">
+            <div
+                class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 text-center hover:shadow-md transition">
                 <h3 class="font-bold text-slate-900 mb-2">Transparent PNG</h3>
-                <img src="https://raw.githubusercontent.com/sepTN/kanji-png-gif/main/examples/transparent.png"
-                    class="h-32 mx-auto my-4" alt="Transparent PNG">
-                <code class="text-xs bg-slate-100 p-1 rounded">bg: transparent</code>
+                <div class="bg-slate-50 rounded-lg p-2 mb-4 bg-grid-slate-200">
+                    <img src="https://raw.githubusercontent.com/sepTN/kanji-png-gif/main/examples/transparent.png"
+                        class="h-32 mx-auto" alt="Transparent Kanji PNG">
+                </div>
+                <code
+                    class="text-xs bg-slate-100 text-slate-600 p-1 rounded border border-slate-200">bg: transparent</code>
             </div>
         </div>
     </div>
@@ -75,10 +139,12 @@
                 <h3 class="text-xl font-semibold text-white mb-4 flex items-center gap-2">
                     <span class="text-red-500">#</span> Installation
                 </h3>
-                <div class="bg-black/50 p-6 rounded-lg font-mono text-sm border border-white/10">
-                    <p class="text-slate-400 mb-2">// Install globally to use the CLI anywhere</p>
-                    <p class="text-white">npm install -g kanji-png</p>
-                    <p class="text-slate-400 mt-4 mb-2">// Or run directly with npx</p>
+                <div class="bg-black/50 p-6 rounded-lg font-mono text-sm border border-white/10 shadow-inner">
+                    <p class="text-slate-500 mb-2 select-none">// Install globally to use the CLI anywhere</p>
+                    <div class="flex justify-between items-center group">
+                        <p class="text-white">npm install -g kanji-png</p>
+                    </div>
+                    <p class="text-slate-500 mt-4 mb-2 select-none">// Or run directly with npx</p>
                     <p class="text-white">npx kanji-png --help</p>
                 </div>
             </div>
@@ -92,25 +158,35 @@
                 <div class="grid gap-6">
                     <div class="bg-slate-800/50 p-6 rounded-lg border border-white/5">
                         <h4 class="font-bold text-white mb-2">1. Animated GIF with Relative Timing</h4>
-                        <p class="text-sm text-slate-400 mb-3">Complex characters take longer to write than simple ones.
+                        <p class="text-sm text-slate-400 mb-3">Good for study apps. Complex characters take longer to
+                            write than simple ones.
                         </p>
-                        <code class="block bg-black/50 p-3 rounded text-green-400 font-mono text-sm">
-                            npx kanji-png --file 04e00.svg --format gif --width 300 --timing relative
+                        <code class="block bg-black/50 p-3 rounded text-green-400 font-mono text-sm break-all">
+                            npx kanji-png --kanji 漢 --format gif --width 300 --timing relative
                         </code>
                     </div>
 
                     <div class="bg-slate-800/50 p-6 rounded-lg border border-white/5">
-                        <h4 class="font-bold text-white mb-2">2. High-Resolution PNG for Print</h4>
-                        <p class="text-sm text-slate-400 mb-3">Generate a large, crisp image (2000x2000).</p>
-                        <code class="block bg-black/50 p-3 rounded text-green-400 font-mono text-sm">
-                            npx kanji-png --file 09b31.svg --format png --width 2000
+                        <h4 class="font-bold text-white mb-2">2. Hex Code Input</h4>
+                        <p class="text-sm text-slate-400 mb-3">You can also use the hex code directly without the .svg
+                            extension.</p>
+                        <code class="block bg-black/50 p-3 rounded text-green-400 font-mono text-sm break-all">
+                            npx kanji-png --file 04e00 --format gif
                         </code>
                     </div>
 
                     <div class="bg-slate-800/50 p-6 rounded-lg border border-white/5">
-                        <h4 class="font-bold text-white mb-2">3. Colored Backgrounds & Custom Strokes</h4>
+                        <h4 class="font-bold text-white mb-2">3. High-Resolution PNG for Print</h4>
+                        <p class="text-sm text-slate-400 mb-3">Generate a large, crisp image (2000x2000px).</p>
+                        <code class="block bg-black/50 p-3 rounded text-green-400 font-mono text-sm break-all">
+                            npx kanji-png --kanji 鬱 --format png --width 2000
+                        </code>
+                    </div>
+
+                    <div class="bg-slate-800/50 p-6 rounded-lg border border-white/5">
+                        <h4 class="font-bold text-white mb-2">4. Colored Backgrounds & Custom Strokes</h4>
                         <p class="text-sm text-slate-400 mb-3">Red strokes with a blue guide on a yellow background.</p>
-                        <code class="block bg-black/50 p-3 rounded text-green-400 font-mono text-sm">
+                        <code class="block bg-black/50 p-3 rounded text-green-400 font-mono text-sm break-all">
                             npx kanji-png --file 04e00.svg --format gif --color "#ff0000" --guide "#0000ff" --bg "#ffffcc"
                         </code>
                     </div>
@@ -118,12 +194,12 @@
             </div>
 
             <!-- CLI Options -->
-<div>
-    <h3 class="text-xl font-semibold text-white mb-4 flex items-center gap-2">
-        <span class="text-red-500">#</span> CLI Reference
-    </h3>
-    <pre
-        class="bg-black/80 text-green-400 p-6 rounded-lg font-mono text-sm border border-white/10 overflow-x-auto leading-relaxed">
+            <div>
+                <h3 class="text-xl font-semibold text-white mb-4 flex items-center gap-2">
+                    <span class="text-red-500">#</span> CLI Reference
+                </h3>
+                <pre
+                    class="bg-black/80 text-green-400 p-6 rounded-lg font-mono text-sm border border-white/10 overflow-x-auto leading-relaxed shadow-inner">
 Usage: kanji-png [options]
 
 Modes:
@@ -131,37 +207,46 @@ Modes:
   Custom: Generates a specific format with custom settings.
 
 Options:
-  --help, -h       Show this help message.
-  --file &lt;name&gt;    Process a single SVG file (e.g., 04e00.svg).
+  --help, -h        Show this help message.
+  --kanji, -k &lt;char&gt; Process a single Kanji character (e.g., 一).
+  --file &lt;name&gt;     Process a single SVG file (e.g., 04e00.svg OR 04e00).
 
 Customization Options:
-  --format &lt;type&gt;  Output format: 'png' or 'gif'.
-  --width &lt;px&gt;     Output width.
-  --height &lt;px&gt;    Output height. (Defaults to width if omitted).
-  --out &lt;dir&gt;      Output directory (default: 'kanji_custom').
-  --bg &lt;color&gt;     Background color (e.g., 'white', 'transparent' or '#RRGGBB'). 
-                   Default: 'white' (GIF/PNG), 'transparent' (Square PNG).
-  --color &lt;hex&gt;    Main stroke color (default: '#000000').
-  --guide &lt;hex&gt;    Guide stroke color (default: '#dddddd', use 'none' to hide).
+  --format &lt;type&gt;   Output format: 'png' or 'gif'.
+  --width &lt;px&gt;      Output width.
+  --height &lt;px&gt;     Output height. (Defaults to width if omitted).
+  --out &lt;dir&gt;       Output directory (default: 'kanji_custom').
+  --bg &lt;color&gt;      Background color (e.g., 'white', 'transparent' or '#RRGGBB'). 
+                    Default: 'white' (GIF/PNG), 'transparent' (Square PNG).
+  --color &lt;hex&gt;     Main stroke color (default: '#000000').
+  --guide &lt;hex&gt;     Guide stroke color (default: '#dddddd', use 'none' to hide).
   
 Animation Options (GIF only):
-  --duration &lt;ms&gt;  Total animation duration (default: 2000ms).
-  --fps &lt;num&gt;      Frames per second (default: 20).
-  --timing &lt;mode&gt;  'fixed' (default) or 'relative'.
-                   fixed: All kanji take 'duration' ms.
-                   relative: Duration depends on stroke count.
+  --duration &lt;ms&gt;   Total animation duration (default: 2000ms).
+  --fps &lt;num&gt;       Frames per second (default: 20).
+  --timing &lt;mode&gt;   'fixed' (default) or 'relative'.
+                    fixed: All kanji take 'duration' ms.
+                    relative: Duration depends on stroke count.
 
 Examples:
   kanji-png --file 04e00.svg --format gif --width 300 --timing relative
   kanji-png --format png --width 500 --bg transparent --guide none
 </pre>
-</div>
+            </div>
         </div>
     </div>
 
-    <div class="text-center py-8 text-slate-400 text-sm">
-        <p>Created by <a href="https://github.com/sepTN" class="hover:text-slate-600">sepTN</a>. Licensed under CC BY-SA
-            3.0.</p>
+    <div class="text-center py-10 text-slate-400 text-sm border-t border-slate-200/50">
+        <p>
+            Created by <a href="https://jepang.org/tentang-kami/"
+                class="font-bold text-slate-600 hover:text-red-600 hover:underline transition-colors"
+                title="About sepTN">sepTN</a>.
+            Licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/"
+                class="underline hover:text-slate-600" rel="nofollow">CC BY-SA 3.0</a>.
+        </p>
+        <p class="mt-2 text-xs text-slate-300">
+            Based on KanjiVG and AniKanjiVG data.
+        </p>
     </div>
 
 </body>

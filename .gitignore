@@ -4,6 +4,7 @@ node_modules/
 # System Files
 .DS_Store
 Thumbs.db
+._*
 
 # Custom Output Directories (User generated)
 kanji_custom/

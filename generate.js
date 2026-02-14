@@ -43,18 +43,26 @@ function parseArgs() {
             config.format = args[++i].toLowerCase();
             config.mode = 'custom';
         } else if (arg === '--width') {
-            config.width = parseInt(args[++i]);
+            const val = args[++i];
+            if (!val || val.startsWith('-')) {
+                console.error('Error: --width requires a value');
+                process.exit(1);
+            }
+            config.width = parseInt(val);
             config.mode = 'custom';
         } else if (arg === '--height') {
-            config.height = parseInt(args[++i]);
+            const val = args[++i];
+            if (!val || val.startsWith('-')) {
+                console.error('Error: --height requires a value');
+                process.exit(1);
+            }
+            config.height = parseInt(val);
             config.mode = 'custom';
         } else if (arg === '--out') {
             config.outDir = args[++i];
             config.mode = 'custom';
         } else if (arg === '--bg') {
             config.bg = args[++i];
-            // If user explicitly sets bg, implied custom mode unless just tweaking default? 
-            // Let's say explicit args implies custom intent usually.
             config.mode = 'custom';
         } else if (arg === '--color') {
             config.color = args[++i];
@@ -63,14 +71,34 @@ function parseArgs() {
             config.guide = args[++i];
             config.mode = 'custom';
         } else if (arg === '--duration') {
-            config.duration = parseInt(args[++i]);
+            const val = args[++i];
+            if (!val || val.startsWith('-')) {
+                console.error('Error: --duration requires a value');
+                process.exit(1);
+            }
+            config.duration = parseInt(val);
             config.mode = 'custom';
         } else if (arg === '--fps') {
-            config.fps = parseInt(args[++i]);
+            const val = args[++i];
+            if (!val || val.startsWith('-')) {
+                console.error('Error: --fps requires a value');
+                process.exit(1);
+            }
+            config.fps = parseInt(val);
             config.mode = 'custom';
         } else if (arg === '--timing') {
             config.timing = args[++i].toLowerCase();
             config.mode = 'custom';
+        } else if (arg === '--kanji' || arg === '-k') {
+            const val = args[++i];
+            if (!val || val.startsWith('-')) {
+                console.error('Error: --kanji requires a character');
+                process.exit(1);
+            }
+            // Convert char to hex code
+            const code = val.codePointAt(0).toString(16).toLowerCase();
+            const hex = code.padStart(5, '0');
+            config.file = `${hex}.svg`;
         }
     }
 
@@ -81,7 +109,7 @@ function parseArgs() {
 
     // Default output dir for custom mode
     if (config.mode === 'custom' && !config.outDir) {
-        config.outDir = path.join(__dirname, 'kanji_custom');
+        config.outDir = path.join(process.cwd(), 'kanji_custom');
     }
 
     return config;
@@ -97,7 +125,9 @@ Modes:
 
 Options:
   --help, -h       Show this help message.
+  --help, -h       Show this help message.
   --file <name>    Process a single SVG file (e.g., 04e00.svg).
+  --kanji, -k <char> Process a single Kanji character (e.g., 一).
 
 Customization Options:
   --format <type>  Output format: 'png' or 'gif'.
@@ -293,19 +323,17 @@ async function generateGif(svgContent, outputPath, width, height, options) {
         frameSvg += `</g></svg>`;
 
         // Render frame
-        const buffer = await sharp(Buffer.from(frameSvg))
-            .resize(width, height, { fit: 'contain', background: sharpBg })
-            // .flatten( { background: sharpBg } ) // If we want to burn in background? 
-            // If bg is plain string 'white', sharp handles it in resize options usually if fit is contain?
-            // Actually 'background' in resize fills the unused space.
-            // If SVG has transparent bg, ensuring the CANVAS is filled is important.
-            // Let's Composite over a solid background if not transparent.
-            .composite(options.bg !== 'transparent' ? [{
-                input: await sharp({
-                    create: { width, height, channels: 4, background: sharpBg }
-                }).png().toBuffer(),
-                blend: 'dest-over'
-            }] : [])
+        // Render frame
+        let sharpInstance = sharp(Buffer.from(frameSvg))
+            .resize(width, height, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } });
+
+        // Apply background color if not transparent
+        // Use flatten() which is much faster than composite for solid backgrounds
+        if (options.bg !== 'transparent') {
+            sharpInstance = sharpInstance.flatten({ background: sharpBg });
+        }
+
+        const buffer = await sharpInstance
             .ensureAlpha()
             .raw()
             .toBuffer();
@@ -363,6 +391,12 @@ async function processFile(file, config) {
         }
         // --- Default Mode (3 outputs) ---
         else {
+            // Ensure default directories exist
+            [outputDirSquare, outputDirOg, outputDirGif].forEach(dir => {
+                if (!fs.existsSync(dir)) {
+                    fs.mkdirSync(dir, { recursive: true });
+                }
+            });
             // 1. Square PNG
             const sqPath = path.join(outputDirSquare, file.replace('.svg', '.png'));
             await generatePng(svgBuffer, sqPath, 1024, 1024, 'contain', { r: 0, g: 0, b: 0, alpha: 0 }, '#000000', 'none');
@@ -416,9 +450,22 @@ async function main() {
 
         let files = [];
         if (config.file) {
-            if (!fs.existsSync(path.join(inputDir, config.file))) {
-                console.error(`File ${config.file} not found.`);
-                return;
+            let filePath = path.join(inputDir, config.file);
+            if (!fs.existsSync(filePath)) {
+                // Try appending .svg
+                if (fs.existsSync(filePath + '.svg')) {
+                    config.file += '.svg';
+                }
+                // Try padding to 5 digits + .svg (e.g., 6f22 -> 06f22.svg)
+                else {
+                    const padded = config.file.padStart(5, '0') + '.svg';
+                    if (fs.existsSync(path.join(inputDir, padded))) {
+                        config.file = padded;
+                    } else {
+                        console.error(`File ${config.file} (or ${config.file}.svg, ${padded}) not found.`);
+                        return;
+                    }
+                }
             }
             files = [config.file];
         } else {

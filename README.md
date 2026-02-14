@@ -1,6 +1,8 @@
 # Kanji PNG & GIF Generator - Animated Stroke Order Images
 
 [![License: CC BY-SA 3.0](https://img.shields.io/badge/License-CC%20BY--SA%203.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/3.0/)
+[![NPM Version](https://img.shields.io/npm/v/kanji-png.svg)](https://www.npmjs.com/package/kanji-png)
+[![NPM Downloads](https://img.shields.io/npm/dm/kanji-png.svg)](https://www.npmjs.com/package/kanji-png)
 
 A powerful Node.js utility to generate high-quality **Kanji PNG** images and **Kanji GIF** animations. 
 
@@ -8,7 +10,8 @@ Create custom, high-resolution Japanese character images and **stroke order anim
 
 > ⚡️ **Live Demo:** This library powers the real-time stroke order animations for the **[Jepang.org Kanji Dictionary](https://jepang.org/kanji/)**. See it running in production!
 
-**Repository:** [github.com/sepTN/kanji-png-gif](https://github.com/sepTN/kanji-png-gif)
+- **Repository:** [github.com/sepTN/kanji-png-gif](https://github.com/sepTN/kanji-png-gif)
+- **Documentation:** [septn.github.io/kanji-png-gif](https://septn.github.io/kanji-png-gif/)
 
 ## Features
 
@@ -59,7 +62,9 @@ You can use the `generate.js` script to create **custom** assets with your prefe
 **1. Animated GIF with Relative Timing**
 Good for study apps. Complex characters take longer to write than simple ones.
 ```bash
-node generate.js --file 04e00.svg --format gif --width 300 --timing relative
+node generate.js --kanji 漢 --format gif --width 300 --timing relative
+# OR using hex code
+node generate.js --file 6f22 --format gif
 ```
 
 **2. High-Resolution PNG for Print**
@@ -79,14 +84,21 @@ Force the animation to complete in 1 second, regardless of stroke count.
 **5. Custom Colors**
 Red strokes with a blue guide.
 ```bash
-node generate.js --file 04e00.svg --format gif --color "#ff0000" --guide "#0000ff"
+node generate.js --kanji 一 --format gif --color "#ff0000" --guide "#0000ff"
+```
+
+**6. Hex Code Input**
+You can pass the hex code directly (without .svg extension):
+```bash
+node generate.js --file 04e00
 ```
 
 ### Command Line Options
 
 | Option | Description | Default |
 | :--- | :--- | :--- |
-| `--file <filename>` | Process a single Kanji file (e.g., `04e00.svg`) | Process all |
+| `--kanji <char>` | **(New)** Process a single Kanji character (e.g., `一`, `漢`) | - |
+| `--file <filename>` | Process a single Kanji file (e.g., `04e00.svg` OR `04e00`) | Process all |
 | `--format <type>` | Output format: `png` or `gif` | All 3 default types |
 | `--width <px>` | Output width | `1024` (PNG), `200` (GIF) |
 | `--height <px>` | Output height (defaults to width) | - |

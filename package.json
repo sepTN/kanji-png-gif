@@ -1,7 +1,15 @@
 {
   "name": "kanji-png",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate high-quality Kanji PNGs and Animated GIFs (Stroke Order) from SVG data.",
+  "homepage": "https://github.com/sepTN/kanji-png-gif#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sepTN/kanji-png-gif.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sepTN/kanji-png-gif/issues"
+  },
   "main": "generate.js",
   "bin": {
     "kanji-png": "./generate.js",
